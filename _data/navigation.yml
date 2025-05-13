@@ -11,16 +11,16 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
+  - title: "Talks" # TODO: add
     url: /talks/    
 
-  - title: "Teaching"
+  - title: "Teaching" # TODO: add
     url: /teaching/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Blog Posts" # TODO: add
     url: /year-archive/
     
   - title: "CV"
