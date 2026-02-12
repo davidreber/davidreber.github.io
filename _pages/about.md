@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in [Computer Science](https://computerscience.uchicago.edu/){:target="_blank"} at the University of Chicago, advised by [Victor Veitch](http://victorveitch.com/){:target="_blank"}.
+I am a third-year Ph.D. student in [Computer Science](https://computerscience.uchicago.edu/){:target="_blank"} at the University of Chicago, advised by [Victor Veitch](http://victorveitch.com/){:target="_blank"} and [Ari Holtzman](https://ariholtzman.com/){:target="_blank"}.
 My research is about understanding how Large Language Models (LLMs) reach decisions, and how this informs agentic safety evaluations for e.g. deception or collusion; hence my research lies at the intersection of causality, interpretability, and game theory.
 
 <!-- Here is my [CV]({{ '/files/Reber_CV.pdf' | relative_url }}){:target="_blank" rel="noopener"}. -->
