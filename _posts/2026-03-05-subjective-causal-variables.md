@@ -36,7 +36,7 @@ The move toward "black-box" interpretability over reasoning paths has only made 
 
 Across 2022–2025, we've watched a remarkably consistent pattern: someone proposes an intervention to localize or understand some aspect of an LLM, and later work reveals it didn't measure what we thought.[^2] Each time, later papers argue "the intervention others used wasn't the right one." But we keep missing the deeper point: *it's all arbitrary until it's subjectively tied to reproducible human judgments.*
 
-I've perpetuated the "eureka, we found the bug in the earlier interventions!" narrative myself. In work I contributed to, we highlighted that activation patching interventions (see Heimersheim & Nanda, 2024) weren't surgical enough, and proposed dynamic weight grafting as a fix (Nief et al., 2025). Each time we convince ourselves the engineering is progressing. But there's still a fundamentally unaddressed question: is there any procedure that validates an intervention without a human judging whether the result means what we think?
+I've perpetuated the "eureka, we found the bug in the earlier interventions!" narrative myself. In work I contributed to, we highlighted that activation patching interventions (see Heimersheim & Nanda, 2024) weren't surgical enough, and proposed dynamic weight grafting as a fix (Nief et al., 2026). Each time we convince ourselves the engineering is progressing. But there's still a fundamentally unaddressed question: is there any procedure that validates an intervention without a human judging whether the result means what we think?
 
 It is too easy to believe our interventions are well-defined because they are granular, forgetting that granularity is not validity.[^3]
 
@@ -98,7 +98,7 @@ Makelov, A., Lange, G., & Nanda, N. (2023). Is this the subspace you are looking
 
 Meng, K., Bau, D., Andonian, A., & Belinkov, Y. (2022). Locating and editing factual associations in GPT. *NeurIPS 2022*.
 
-Nief, T., et al. (2025). Multiple streams of knowledge retrieval: Enriching and recalling in transformers. *arXiv:2506.20746*.
+Nief, T., et al. (2026). Multiple streams of knowledge retrieval: Enriching and recalling in transformers. *ICLR 2026*.
 
 Paul, D., et al. (2024). Making reasoning matter: Measuring and improving faithfulness of chain-of-thought reasoning. *Findings of EMNLP 2024*.
 
