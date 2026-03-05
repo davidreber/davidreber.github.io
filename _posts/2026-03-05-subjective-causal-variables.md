@@ -1,7 +1,7 @@
 ---
 title: 'Your Causal Variables Are Irreducibly Subjective. Embrace the Shoe Leather.'
-date: 2025-07-21
-permalink: /posts/2025/07/subjective-causal-variables/
+date: 2026-03-05
+permalink: /posts/2026/03/subjective-causal-variables/
 tags:
   - causality
   - interpretability
