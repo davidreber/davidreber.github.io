@@ -8,12 +8,14 @@ redirect_from:
 ---
 
 I am a third-year Ph.D. student in [Computer Science](https://computerscience.uchicago.edu/){:target="_blank"} at the University of Chicago, advised by [Victor Veitch](http://victorveitch.com/){:target="_blank"} and [Ari Holtzman](https://ariholtzman.com/){:target="_blank"}.
-My research is about understanding how Large Language Models (LLMs) reach decisions, and how this informs agentic safety evaluations for e.g. deception or collusion; hence my research lies at the intersection of causality, interpretability, and game theory.
+I'm developing ways to do precise causal inference over irreducibly subjective variables — the kind that matter for understanding LLMs but can't be cleanly formalized. I think this is the biggest missing piece in our toolkit for analyzing the effect of AI on society at large.
 
 <!-- Here is my [CV]({{ '/files/Reber_CV.pdf' | relative_url }}){:target="_blank" rel="noopener"}. -->
 
-<!-- News
-===== -->
+News
+=====
+- **[Multiple Streams of Knowledge Retrieval: Enriching and Recalling in Transformers](https://arxiv.org/abs/2506.20746)** (Nief, Reber, Richardson, & Holtzman, 2025) — Dynamic weight grafting is a more surgical version of activation patching, locally patching computations rather than the information stored in the residual stream. Proof of concept: this reveals two separate pathways for retrieving finetuned knowledge.
+- **[RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals](https://arxiv.org/abs/2410.11348)** (Reber, Richardson, Nief, Garbacea, & Veitch, ICML 2025) — Precise causal inference over subjective-but-reproducible variables, applied to measuring how high-level attributes like helpfulness or sentiment actually drive reward model scores. It appears that "length bias" concerns about reward models were largely an artifact of biased measurement!
 
 Contact
 =====
