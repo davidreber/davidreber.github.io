@@ -8,7 +8,7 @@ tags:
   - LLMs
 ---
 
-*The only honest path to causal inference about LLMs is subjective-but-reproducible variables, validated by human judgment — the same shoe-leather methodology that proved cholera was waterborne in 1854*
+*Publishing our methods for assigning subjective labels in mech interp matters more than publishing a github repo. Embrace the methodology that proved cholera was waterborne in 1854*
 
 ---
 
