@@ -1,6 +1,6 @@
 ---
-title: 'Your Causal Variables Are Irreducibly Subjective. Embrace the Shoe Leather.'
-date: 2026-03-05
+title: 'Your Causal Variables Are Irreducibly Subjective'
+date: 2026-03-06
 permalink: /posts/2026/03/subjective-causal-variables/
 tags:
   - causality
@@ -8,7 +8,7 @@ tags:
   - LLMs
 ---
 
-*Publishing our methods for assigning subjective labels in mech interp matters more than publishing a github repo. Embrace the methodology that proved cholera was waterborne in 1854*
+*Mechanistic interpretability needs its own shoe leather era. Reproducing the labeling process will matter more than reproducing the Github.*
 
 ---
 
