@@ -16,7 +16,7 @@ News
 =====
 - **[Your Causal Variables Are Irreducibly Subjective. Embrace the Shoe Leather.](/posts/2026/03/subjective-causal-variables/)** (blog post, 2026) — My musings on why causal mech interp has such a bad track record for reproducibility.
 - **[Multiple Streams of Knowledge Retrieval: Enriching and Recalling in Transformers](https://arxiv.org/abs/2506.20746)** (Nief, Reber, Richardson, & Holtzman, ICLR 2026) — Dynamic weight grafting is a more surgical version of activation patching, locally patching computations rather than the information stored in the residual stream. Proof of concept: this reveals two separate pathways for retrieving finetuned knowledge.
-- **[RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals](https://arxiv.org/abs/2410.11348)** (Reber, Richardson, Nief, Garbacea, & Veitch, ICML 2025) — Precise causal inference over subjective-but-reproducible variables, applied to measuring how high-level attributes like helpfulness or sentiment actually drive reward model scores. It appears that "length bias" concerns about reward models were largely an artifact of biased measurement!
+- **[RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals](https://proceedings.mlr.press/v267/reber25a.html)** (Reber, Richardson, Nief, Garbacea, & Veitch, ICML 2025) — Precise causal inference over subjective-but-reproducible variables, applied to measuring how high-level attributes like helpfulness or sentiment actually drive reward model scores. It appears that "length bias" concerns about reward models were largely an artifact of biased measurement!
 
 Contact
 =====
