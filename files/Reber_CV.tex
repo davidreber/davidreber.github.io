@@ -1,0 +1,170 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{libertine}
+\usepackage[T1]{fontenc}
+
+% Hyperref settings
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=blue,
+    pdftitle={David Reber CV}
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titleformat{\subsection}[runin]{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% No page numbers
+\pagestyle{empty}
+
+% Reduce spacing
+\setlist{noitemsep,topsep=0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{David Reber}} \\[0.2em]
+    \href{mailto:reber@uchicago.edu}{reber@uchicago.edu} $\cdot$ 
+    \href{https://davidpreber.com}{davidpreber.com} $\cdot$ 
+    \href{https://scholar.google.com/citations?user=8MXWn9gAAAAJ}{Google Scholar} \\
+    Department of Computer Science, University of Chicago
+\end{center}
+
+\section*{Research Interests}
+
+I am a fourth-year Ph.D. student in Computer Science at the University of Chicago, advised by Victor Veitch and Ari Holtzman. My research is about understanding how Large Language Models (LLMs) reach decisions, and how this informs agentic safety evaluations for e.g. deception or collusion; hence my research lies at the intersection of causality, interpretability, and game theory.
+
+\section*{Education}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Ph.D. in Computer Science}, University of Chicago \hfill 2023 -- Present \\
+    Advisors: Victor Veitch and Ari Holtzman
+
+    \item \textbf{Ph.D. in Applied Mathematics}, Columbia University \hfill 2021 -- 2022 \\
+    Advisor: Elias Bareinboim (transferred to University of Chicago)
+    
+    \item \textbf{M.S. in Mathematics}, Brigham Young University \hfill 2017 -- 2019
+    
+    \item \textbf{B.S. in Applied and Computational Mathematics}, Brigham Young University \hfill 2012 -- 2017
+\end{itemize}
+
+\section*{Publications}
+
+\subsection*{Preprints}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Can LLMs Anticipate Their Cruxes?} \\
+    D. Reber, J. Reber, A. Holtzman, V. Veitch \\
+    \textit{arXiv preprint arXiv:2610.21006}, 2026
+\end{itemize}
+
+\subsection*{Conference Papers}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Multiple Streams of Knowledge Retrieval: Enriching and Recalling in Transformers} \\
+    T. Nief, D. Reber, S. Richardson, A. Holtzman \\
+    \textit{International Conference on Learning Representations (ICLR)}, 2026
+
+    \item \textbf{RATE: Causal Explainability of Reward Models with Imperfect Counterfactuals} \\
+    D. Reber, S. Richardson, T. Nief, C. Garbacea, V. Veitch \\
+    \textit{International Conference on Machine Learning (ICML)}, 2025
+\end{itemize}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{A simple stability criterion for dynamical systems with stochastic switching and/or stochastic time-delays} \\
+    C. Carter, J. Murri, D. Reber, B. Webb \\
+    \textit{Nonlinearity}, 35(12), 6042, 2022
+    
+    \item \textbf{Intrinsic stability: stability of dynamical networks and switched systems with any type of time-delays} \\
+    D. Reber, B. Webb \\
+    \textit{Nonlinearity}, 33(6), 2560, 2020
+\end{itemize}
+
+\section*{Funding}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Long-Term Future Fund Grant}, Effective Ventures \hfill 2023 -- 2025 \\
+    Full PhD funding support for AI safety research
+\end{itemize}
+
+\section*{Teaching Experience}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Instructor}, Brigham Young University
+    \begin{itemize}
+        \item Quantitative Reasoning \hfill 2018
+        \item Competitive Coding \hfill 2016
+    \end{itemize}
+\end{itemize}
+
+\section*{Mentoring}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{XLab Summer Research Fellowship Mentor}, University of Chicago
+    \begin{itemize}
+        \item Summer 2025: Office hours for all AI safety technical fellows
+        \item Summer 2023: Mentored Master's student on Othello GPT interpretability project
+    \end{itemize}
+    
+    \item \textbf{Research Group Leader}, Brigham Young University \hfill 2020
+    \begin{itemize}
+        \item Led 4 undergraduate students in dynamical networks research
+        \item Research resulted in publication in \textit{Nonlinearity}
+    \end{itemize}
+\end{itemize}
+
+\section*{Professional Experience}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Machine Learning Engineer}, Medic.Life \hfill 2018 -- 2020
+    \begin{itemize}
+        \item Lead researcher on ML integration with health-monitoring systems
+        \item Contributed to 5 provisional patents
+    \end{itemize}
+    
+    \item \textbf{EarlyAlert Project Manager}, Brigham Young University \hfill 2018
+    \begin{itemize}
+        \item Led team of 4 undergraduates developing predictive academic counseling tool
+    \end{itemize}
+\end{itemize}
+
+\section*{Service}
+
+\subsection*{Conference \& Workshop Reviews}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{2026:} NeurIPS, ICLR, COLM
+    \item \textbf{2025:} NeurIPS (Main Conference, MechInterp Workshop), ICLR, ICML, UAI (CAR Workshop), CLeaR
+    \item \textbf{2024:} NeurIPS (Main Conference, SoLaR Workshop), ICLR, ICML (TIFA Workshop), CLeaR
+    \item \textbf{2023:} NeurIPS (SoLaR Workshop, CRL Workshop), ICML (SCIS Workshop)
+\end{itemize}
+
+\subsection*{Professional Affiliations}
+
+\begin{itemize}[leftmargin=*]
+    \item Member, Causal Incentives Working Group
+\end{itemize}
+
+\section*{Technical Skills}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Deep Learning:} PyTorch, NNsight
+\end{itemize}
+
+\section*{Honors \& Awards}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{National Merit Scholar}, Full-tuition award \hfill 2012 -- 2016
+    \item \textbf{Outstanding Student of Mathematics}, Brigham Young University \hfill 2016
+\end{itemize}
+
+\end{document}
